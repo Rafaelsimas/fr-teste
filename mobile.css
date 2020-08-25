@@ -1,0 +1,113 @@
+@media (min-width:320px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .logo-nav{
+        width: 250px;
+    }
+    /* fim do header */
+
+     /* inicio da sessao inovacao */
+    
+    #inovacao{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .box-inovacao{
+        width: 100%;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .btn-2{
+        border: 1px solid purple;
+        background: purple;
+        color: white;
+        border-radius: 7px;
+        padding: 12px 90px;
+    }
+
+    .box-inovacao a{
+        text-decoration: none;
+    }
+
+    .primeira-imagem{
+        width: 300px;
+        margin-left: 100px;
+    }
+    /* fim da sessao inovacao */
+
+    /* inicio da sessao sobre */
+    #sobre{
+        width: 100%;
+        background: rgb(203, 247, 255);
+    }
+    
+    .box-sobre{
+        width: 100%;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    /* fim da sessao sobre */
+
+    /* inicio da sessao o que fazemos */
+    #fazemos{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .box-fazemos{
+        width: 100%;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .card{
+        margin-top: 78px;
+        background: white;
+        border-radius: 2%;
+        width: 100%;
+     
+        box-shadow: 0 0 16px rgba(0,0,0,0.1);
+    }
+
+    .icons{
+        width: 20%;
+        margin-left: 40%;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    /* fim da sessao o que fazemos */
+
+    /* inicio da sessao processo */
+    #processp{
+        width: 100%;
+        background: rgb(203, 247, 255);
+    }
+    
+    .box-processo{
+        width: 100%;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .segunda-imagem, .terceira-imagem, .quarta-imagem, .quinta-imagem{
+        width: 100%;
+    }
+    /* fim da sessao processo */
+}
+
